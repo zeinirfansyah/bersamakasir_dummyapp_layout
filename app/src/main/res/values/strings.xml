@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">BersamaKasirEDCLayout</string>
     <string name="masuk_ke_halaman_transaksi">Masuk ke Halaman Transaksi</string>
+    <string name="masukan_total_bayar">Masukan total bayar</string>
+    <string name="jumat_6_desember_2024">Jumat, 6 Desember 2024</string>
+    <string name="pos">POS</string>
+    <string name="edc">EDC</string>
 </resources>

@@ -3,6 +3,7 @@ package com.example.bersamakasiredclayout
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -19,10 +20,16 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val btnMasukTransaksi = findViewById<Button>(R.id.btn_masukTransaksi)
-        btnMasukTransaksi.setOnClickListener {
+        val btn_edc = findViewById<Button>(R.id.btn_edc)
+        val btn_pos = findViewById<Button>(R.id.btn_pos)
+
+        btn_pos.setOnClickListener {
             intent = Intent(this, TransactionsActivity::class.java)
             startActivity(intent)
+        }
+
+        btn_edc.setOnClickListener {
+            Toast.makeText(this, "Button EDC Clicked", Toast.LENGTH_SHORT).show()
         }
 
     }

@@ -5,7 +5,7 @@
 
     <!-- Border (Stroke) -->
     <stroke
-        android:color="@color/primary"
+        android:color="#FAB12F"
         android:width="2dp"/>
 
     <!-- Corner radius (optional, adjust as needed) -->

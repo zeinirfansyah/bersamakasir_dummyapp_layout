@@ -10,8 +10,11 @@ material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
 recyclerview = "1.3.1"
+material-version = "1.12.0"
+
 
 [libraries]
+material-style = { module = "com.google.android.material:material", version.ref = "material-version" }
 picasso = { group = "com.squareup.picasso", name = "picasso", version = "2.71828" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
