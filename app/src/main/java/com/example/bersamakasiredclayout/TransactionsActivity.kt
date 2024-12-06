@@ -2,6 +2,7 @@ package com.example.bersamakasiredclayout
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -20,7 +21,7 @@ class TransactionsActivity : AppCompatActivity() {
             insets
         }
 
-        val btnBack: Button = findViewById(R.id.btn_cancel)
+        val btnBack: ImageView = findViewById(R.id.btn_back)
 
         btnBack.setOnClickListener {
             finish()
