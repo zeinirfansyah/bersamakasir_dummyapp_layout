@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BersamaKasirEDCLayout"
         tools:targetApi="31">
         <activity
+            android:name=".BluetoothListActivity"
+            android:exported="false" />
+        <activity
             android:name=".TransactionsActivity"
             android:exported="false" />
         <activity
